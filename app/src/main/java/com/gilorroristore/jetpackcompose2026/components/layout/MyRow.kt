@@ -1,4 +1,4 @@
-package com.aristidevs.myfirstcomposeapp.components.layout
+package com.gilorroristore.jetpackcompose2026.components.layout
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.horizontalScroll
