@@ -61,4 +61,7 @@ dependencies {
     implementation(libs.coil.compose)
     implementation(libs.coil.network.okhttp)
 
+    //Lottie
+    implementation(libs.lottie.compose)
+
 }

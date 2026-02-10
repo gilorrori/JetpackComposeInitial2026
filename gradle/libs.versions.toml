@@ -10,6 +10,7 @@ kotlin = "2.0.21"
 composeBom = "2026.01.01"
 constraintVersion = "1.1.1"
 coilCompose = "3.3.0"
+lottieCompose = "6.7.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,6 +32,7 @@ constraint-layout = {module = "androidx.constraintlayout:constraintlayout-compos
 
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
 coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coilCompose" }
+lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottieCompose" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
