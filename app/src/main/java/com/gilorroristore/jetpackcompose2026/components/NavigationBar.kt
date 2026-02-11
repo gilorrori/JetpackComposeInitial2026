@@ -17,7 +17,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.aristidevs.myfirstcomposeapp.components.model.NavItem
+import com.gilorroristore.jetpackcompose2026.model.NavItem
 
 @Composable
 fun MyFirstNavigationBar() {
