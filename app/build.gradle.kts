@@ -66,5 +66,4 @@ dependencies {
 
     //Icons
     implementation (libs.androidx.compose.material.icons.extended)
-
 }
