@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.jetbrainsKotlinSerialization)
+    alias(libs.plugins.kotlin.parcelize)
 }
 
 android {
@@ -66,4 +68,10 @@ dependencies {
 
     //Icons
     implementation (libs.androidx.compose.material.icons.extended)
+
+    //Navigation compose
+    implementation(libs.androidx.navigation.compose)
+
+    // Kotlin serialization
+    implementation(libs.kotlinx.serialization.json)
 }
