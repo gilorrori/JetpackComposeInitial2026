@@ -44,7 +44,20 @@ fun NavigationWrapper() {
         composable<Settings>(typeMap = mapOf(typeOf<SettingModel>() to createNavType<SettingModel>())) { navBackStackEntry ->
             val setting = navBackStackEntry.toRoute<Settings>()
 
-            SettingsScreen(setting.settingsModel) { }
+            SettingsScreen(settingModel = setting.settingsModel, navigateHome = {
+                navController.navigate(Login){
+                    // Haciendo back a la pantalla de login se elimina la pila de pantallas
+                    popUpTo(Login){
+                        /**
+                         *  inclusive a true elimina la pantalla de login de la pila lo que significa que
+                         *  no se tendran dos pantallas iguales en la pila de pantallas si inclusive
+                         *  es igual a false habran dos pantallas Login en la pila, por lo que al hacer
+                         *  back se regresaria de Login a Login otra vez.
+                         */
+                        inclusive = false
+                    }
+                }
+            })
         }
     }
 }

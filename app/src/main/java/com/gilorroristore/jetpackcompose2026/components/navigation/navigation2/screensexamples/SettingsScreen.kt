@@ -12,7 +12,7 @@ import androidx.compose.ui.unit.sp
 import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples.model.SettingModel
 
 @Composable
-fun SettingsScreen(settingModel: SettingModel, navBack: () -> Unit) {
+fun SettingsScreen(settingModel: SettingModel, navigateHome: () -> Unit) {
 
     Column(modifier = Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally) {
         Spacer(modifier = Modifier.weight(1f))
@@ -21,7 +21,7 @@ fun SettingsScreen(settingModel: SettingModel, navBack: () -> Unit) {
             fontSize = 30.sp
         )
         Spacer(modifier = Modifier.weight(1f))
-        Button(onClick = { navBack() }
+        Button(onClick = { navigateHome() }
         ) {
             Text(text = "Volver al inicio")
         }
