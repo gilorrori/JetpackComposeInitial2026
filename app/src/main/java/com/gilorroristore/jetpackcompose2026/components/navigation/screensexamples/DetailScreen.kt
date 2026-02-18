@@ -11,9 +11,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.sp
+import com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples.model.SettingModel
 
 @Composable
-fun DetailScreen(id: String, showID: Boolean, navBack: () -> Unit) {
+fun DetailScreen(id: String, showID: Boolean, navBack: () -> Unit, navToSettings: (SettingModel) -> Unit) {
+    val settingsModel = SettingModel(id = "MyID", true)
+
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -36,6 +40,18 @@ fun DetailScreen(id: String, showID: Boolean, navBack: () -> Unit) {
                 )
             }
         }
+
+        Button(
+            onClick = {
+                navToSettings(settingsModel)
+            }
+        ) {
+
+            Text(
+                text = "Ajustes"
+            )
+        }
+
         Spacer(modifier = Modifier.weight(1f))
     }
 }
