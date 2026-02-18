@@ -7,6 +7,10 @@ import androidx.navigation.NavType
 import androidx.savedstate.SavedState
 import kotlinx.serialization.json.Json
 
+/**
+ * Inline significa que la funcion se copiara en el lugar donde se use
+ * reified es usado para obtener el tipo real de una clase generica
+ */
 inline fun <reified T : Parcelable> createNavType(): NavType<T> {
     return object : NavType<T>(isNullableAllowed = true) {
 
