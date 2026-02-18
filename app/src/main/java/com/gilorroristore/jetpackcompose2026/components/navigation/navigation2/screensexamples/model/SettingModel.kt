@@ -1,4 +1,4 @@
-package com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples.model
+package com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

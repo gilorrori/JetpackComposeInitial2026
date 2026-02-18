@@ -1,17 +1,16 @@
-package com.gilorroristore.jetpackcompose2026.components.navigation
+package com.gilorroristore.jetpackcompose2026.components.navigation.navigation2
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
-import com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples.DetailScreen
-import com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples.HomeScreen
-import com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples.LoginScreen
-import com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples.SettingsScreen
-import com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples.model.SettingModel
-import com.gilorroristore.jetpackcompose2026.components.navigation.types.createNavType
-import com.gilorroristore.jetpackcompose2026.components.navigation.types.settingsModelType
+import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples.DetailScreen
+import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples.HomeScreen
+import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples.LoginScreen
+import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples.SettingsScreen
+import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples.model.SettingModel
+import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.types.createNavType
 import kotlin.reflect.typeOf
 
 @Composable

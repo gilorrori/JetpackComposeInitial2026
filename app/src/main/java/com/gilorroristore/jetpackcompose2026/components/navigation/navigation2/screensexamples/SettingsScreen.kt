@@ -1,4 +1,4 @@
-package com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples
+package com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -9,7 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
-import com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples.model.SettingModel
+import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples.model.SettingModel
 
 @Composable
 fun SettingsScreen(settingModel: SettingModel, navBack: () -> Unit) {

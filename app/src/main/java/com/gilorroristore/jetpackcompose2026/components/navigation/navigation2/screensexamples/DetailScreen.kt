@@ -1,4 +1,4 @@
-package com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples
+package com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -11,7 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.sp
-import com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples.model.SettingModel
+import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples.model.SettingModel
 
 @Composable
 fun DetailScreen(id: String, showID: Boolean, navBack: () -> Unit, navToSettings: (SettingModel) -> Unit) {

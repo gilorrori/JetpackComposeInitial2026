@@ -1,4 +1,4 @@
-package com.gilorroristore.jetpackcompose2026.components.navigation.types
+package com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.types
 
 import android.net.Uri
 import android.os.Build

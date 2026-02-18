@@ -1,4 +1,4 @@
-package com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples
+package com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column

@@ -1,6 +1,6 @@
-package com.gilorroristore.jetpackcompose2026.components.navigation
+package com.gilorroristore.jetpackcompose2026.components.navigation.navigation2
 
-import com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples.model.SettingModel
+import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples.model.SettingModel
 import kotlinx.serialization.Serializable
 
 @Serializable

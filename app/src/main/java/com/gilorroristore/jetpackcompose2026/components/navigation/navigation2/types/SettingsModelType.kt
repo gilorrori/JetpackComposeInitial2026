@@ -1,10 +1,10 @@
-package com.gilorroristore.jetpackcompose2026.components.navigation.types
+package com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.types
 
 import android.net.Uri
 import android.os.Build
 import androidx.navigation.NavType
 import androidx.savedstate.SavedState
-import com.gilorroristore.jetpackcompose2026.components.navigation.screensexamples.model.SettingModel
+import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.screensexamples.model.SettingModel
 import kotlinx.serialization.json.Json
 
 val settingsModelType = object : NavType<SettingModel>(isNullableAllowed = true){
