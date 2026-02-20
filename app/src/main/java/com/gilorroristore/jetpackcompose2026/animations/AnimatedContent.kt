@@ -54,6 +54,5 @@ fun MyAnimateContent(modifier: Modifier = Modifier) {
                     .background(Color.Black))
             }
         }
-
     }
 }
