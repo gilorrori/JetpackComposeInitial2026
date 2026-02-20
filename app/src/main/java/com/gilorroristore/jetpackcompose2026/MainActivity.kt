@@ -12,6 +12,12 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
+import com.gilorroristore.jetpackcompose2026.animations.FullAnimateAsState
+import com.gilorroristore.jetpackcompose2026.animations.MyAnimateContent
+import com.gilorroristore.jetpackcompose2026.animations.MyAnimatedVisibility
+import com.gilorroristore.jetpackcompose2026.animations.MyContentSize
+import com.gilorroristore.jetpackcompose2026.animations.MyCrossfade
+import com.gilorroristore.jetpackcompose2026.animations.MyInfiniteTransition
 import com.gilorroristore.jetpackcompose2026.components.navigation.navigation2.NavigationWrapper
 import com.gilorroristore.jetpackcompose2026.ui.theme.JetpackCompose2026Theme
 
@@ -25,7 +31,6 @@ class MainActivity : ComponentActivity() {
                 val snackBarHostState = remember { SnackbarHostState() }
                 val scope = rememberCoroutineScope()
                 val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
-
                 var showDialog: Boolean by remember { mutableStateOf(true) }
 
                 /*MyModalDrawer(drawerState = drawerState) {
@@ -82,7 +87,9 @@ class MainActivity : ComponentActivity() {
                     }
                 }*/
 
-                NavigationWrapper()
+                //NavigationWrapper()
+                //MyAnimatedVisibility()
+                MyInfiniteTransition()
 
             }
         }
